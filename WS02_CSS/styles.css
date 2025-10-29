@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(204, 255, 253);
+    background-image: linear-gradient(rgb(204, 255, 253), rgb(102, 255, 250));
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+}
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
