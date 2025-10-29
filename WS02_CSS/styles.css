@@ -5,19 +5,68 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
 }
-
-
 @font-face {
-  font-family: 'Inter', sans-serif;
-  font-optical-sizing: auto;
+  font-family: 'Inter';
+  font-stretch: PERCENTAGE_RANGE_LOW_TO_HIGH; /* Note that font-stretch is a % of normal width */
+  font-style: NORMAL; /* See note below */
   font-weight: 400;
-  font-style: normal;
-  src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
-}
-html {
-  font-family: 'Inter', sans-serif;
+  src: url(./fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
 }
 
-* {
-    box-sizing: border-box;
-  }
+html {
+  font-family: Inter, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 84, 220);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    
+    th, td {
+      border: 1px solid #000000;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: rgb(0, 84, 220);
+      color: rgb(255, 255, 255);
+    }
+    
+    form {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 auto;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
