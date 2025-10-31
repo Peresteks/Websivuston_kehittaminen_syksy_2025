@@ -23,10 +23,17 @@ h1 {
     font-size: 50px;
     margin-top: 80px;
 }
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 72, 255);
+}
 table {
       width: 50%;
       border-collapse: collapse;
       margin: 0 auto;
+      padding:80px;
     }
     
     th, td {
@@ -45,7 +52,8 @@ table {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      margin: 0 auto;
+      margin: 0px auto;
+      padding: 10px;
     }
     
     label {
