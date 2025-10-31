@@ -34,6 +34,7 @@ table {
       border-collapse: collapse;
       margin: 0 auto;
       padding:80px;
+      background-color: rgb(255, 255, 255);
     }
     
     th, td {
