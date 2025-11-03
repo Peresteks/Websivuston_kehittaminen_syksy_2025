@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(204, 255, 253);
+    background-image: linear-gradient(rgb(204, 255, 253), rgb(102, 255, 250));
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: NORMAL; /* See note below */
+  font-weight: 400;
+  src: url(./fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+}
+
+html {
+  font-family: Inter, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 84, 220);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 72, 255);
+}
+table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      padding:80px;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    th, td {
+      border: 1px solid #000000;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: rgb(0, 84, 220);
+      color: rgb(255, 255, 255);
+    }
+    
+    form {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 0px auto;
+      padding: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(0, 153, 148);
+        color:rgb(255, 255, 255)
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(0, 153, 148);
+        position: relative;
+        animation: move 0.5s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(0, 153, 148);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(237, 237, 237);
+      }
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+        width: 400px;
+        margin:0% auto;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
