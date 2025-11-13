@@ -1,6 +1,5 @@
 body {
-  background-color: rgb(204, 255, 253);
-  background-image: linear-gradient(rgb(204, 255, 253), rgb(102, 255, 250));
+  background-color: rgb(255, 255, 255);
   background-attachment: fixed;
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -17,11 +16,18 @@ html {
   font-family: Inter, sans-serif;
 }
 
+.header {
+  background-color: rgb(0, 84, 220);
+  padding: 10px 0;
+  width: 100%;
+  height: 50px;
+}
 h1 {
-  color: rgb(0, 84, 220);
+  color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 50px;
-  margin-top: 80px;
+  font-size: 40px;
+  height: 80px;
+  margin-top:auto;
 }
 
 p {
@@ -71,7 +77,7 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-  background-color: rgb(0, 153, 148);
+  background-color: rgb(0, 84, 220);
   color: white;
   padding: 10px;
   border: none;
@@ -80,11 +86,11 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(0, 153, 148);
+  background-color: rgb(0, 63, 163);
 }
 
 .transition-button {
-  background-color: lightblue;
+  background-color: rgb(0, 84, 220);
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -92,16 +98,16 @@ input[type="submit"]:hover {
 }
 
 .transition-button:hover {
-  background-color: rgb(0, 153, 148);
+  background-color: rgb(0, 63, 163);
   color: rgb(255, 255, 255);
 }
 
 .animation-box {
-  width: 50px;
+  width: 200px;
   height: 50px;
-  background-color: rgb(0, 153, 148);
+  background-color: rgb(0, 84, 220);
   position: relative;
-  animation: move 0.5s infinite alternate;
+  animation: move 1ms infinite alternate;
 }
 
 @keyframes move {
@@ -109,12 +115,12 @@ input[type="submit"]:hover {
     left: 0;
   }
   to {
-    left: 100px;
+    left: 1080px;
   }
 }
 
 .pseudo-list li:nth-child(odd) {
-  background-color: rgb(0, 153, 148);
+  background-color: rgb(0, 84, 220);
 }
 
 .pseudo-list li:nth-child(even) {
@@ -123,9 +129,10 @@ input[type="submit"]:hover {
 
 .filter-image {
   filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: filter 0.1s ease;
   width: 400px;
-  margin: 0% auto;
+  position: relative;
+  animation: move 5s infinite alternate;
 }
 
 .filter-image:hover {
