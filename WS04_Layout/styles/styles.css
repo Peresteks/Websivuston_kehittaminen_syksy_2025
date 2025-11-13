@@ -19,12 +19,13 @@ header {
   background-color: rgb(0, 75, 125);
   padding: 10px 0;
   width: 100%;
-  height: 6vw;
+  height: 50px;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 5vw;
+  font-size: 40px;
   height: 80px;
   margin-top: auto;
 }
@@ -67,14 +68,19 @@ p {
   box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.2);
 }
 .responsive-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 20px;
   text-align: center;
   color: rgb(255, 255, 255);
+  display: block;
+  box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
   .responsive-box {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(0, 0, 0, 0.2);
     color: rgb(0, 75, 125);
   }
 }
