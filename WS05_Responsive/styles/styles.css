@@ -1,3 +1,9 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  font-family: "Inter", sans-serif;
+}
+
 .responsive-nav .nav-list {
   display: flex;
   list-style: none;
