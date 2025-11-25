@@ -8,3 +8,5 @@
 <a href="https://peresteks.github.io/Websivuston_kehittaminen_syksy_2025/WS04_Layout/index.html" target="_blank">WS04</a>
 
 <a href="https://peresteks.github.io/Websivuston_kehittaminen_syksy_2025/WS05_Responsive/index.html" target="_blank">WS05</a>
+
+<a href="https://peresteks.github.io/Websivuston_kehittaminen_syksy_2025/WS06_Bootstrap/index.html" target="_blank">WS06</a>
