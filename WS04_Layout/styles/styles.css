@@ -57,7 +57,7 @@ p {
 .box:hover {
   cursor: pointer;
   transform: scale(1.05);
-  background-color: rgb(0, 102, 170);
+  background-color: rgb(0, 54, 90);
   box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.4);
 }
 
@@ -84,7 +84,7 @@ p {
 .grid-item:hover {
   cursor: pointer;
   transform: scale(1.02);
-  background-color: rgb(0, 102, 170);
+  background-color: rgb(0, 54, 90);
   box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.4);
 }
 .responsive-box {
